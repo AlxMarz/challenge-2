@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: darkgray;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.header h1 .about-me {
+    color: #d9dcd6;
+}
+
+.header div {
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Times New Roman', Times, serif
+    font-size: 50px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+
+p {
+    display: flex;
+    align-items: center;
+    justify-items: end;
+    font-size: 16px;
+}
+
+.pic {
+    height: 100px;
+    width: 50%;
+    margin-bottom: 20px;
+    background-image: url("windosxp.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    padding: 2%;
+    
+}
+
+
+.content {
+    width: 95%;
+    display: grid;
+    margin-left: 250px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0px;
+    height: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0px;
+    height: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0px;
+    height: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0px;
+    height: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #ffffff;
+}
